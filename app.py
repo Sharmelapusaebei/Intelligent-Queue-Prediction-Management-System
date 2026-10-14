@@ -96,7 +96,7 @@ with tab2:
         y=days,
         labels=dict(x="Hour of Day", y="Day of Week", color="Avg Wait (min)"),
         title="Eatery Congestion Heatmap (Highlighting 12–2 PM Student Lunch & 2 PM Staff Break)",
-        color_continuousscale="Reds"
+        color_continuous_scale="Reds"
     )
     st.plotly_chart(fig_heatmap, use_container_width=True)
 
